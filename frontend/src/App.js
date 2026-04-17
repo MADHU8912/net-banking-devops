@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "30px", fontFamily: "Arial" }}>
+      <h1>Net Banking DevOps Project</h1>
+      <p>Frontend deployed successfully on Render.</p>
+
+      <h2>Customer Panel</h2>
+      <ul>
+        <li>View Balance</li>
+        <li>Transfer Money</li>
+        <li>Transaction History</li>
+      </ul>
+
+      <h2>Employee Panel</h2>
+      <ul>
+        <li>View Customers</li>
+        <li>Approve Accounts</li>
+        <li>Manage Transactions</li>
+      </ul>
     </div>
   );
 }
